@@ -17,9 +17,7 @@ public class ConsultaApi {
             throw new RuntimeException(e);
         }
         String json = response.body();
-        System.out.println(json);
         return json;
-
     }
 
 }
